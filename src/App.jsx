@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import AppRoutes from "./route/route";
 
 function App() {
-
   return (
     <>
-     <h1>Form Builder</h1>
-     </>
-  )
+      <AppRoutes />
+    </>
+  );
 }
 
-export default App
+export default App;
