@@ -6,27 +6,11 @@ import {
   Divider,
   Typography,
 } from "@mui/material";
-import React from "react";
-import logo from "../assets/logo.png";
+import LeftContainer from "./LeftContainer";
 const Login = () => {
   return (
     <Grid container sx={{ minHeight: "100vh" }}>
-      {/* Left side */}
-      <Grid
-        item
-        size={6}
-        sx={{
-          backgroundColor: "#03111B",
-          color: "#fff",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <img src={logo} alt="Logo failed tom load" />
-      </Grid>
-
-      {/* Right side */}
+      <LeftContainer />
       <Grid
         item
         size={6}

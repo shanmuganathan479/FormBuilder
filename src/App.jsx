@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Login from './components/Login'
+import "./App.css";
+import AppRoutes from "./route/route";
 
 function App() {
-
   return (
     <>
-    <Login/>
-     </>
-  )
+      <AppRoutes />
+    </>
+  );
 }
 
-export default App
+export default App;
